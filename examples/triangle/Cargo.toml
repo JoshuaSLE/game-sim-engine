@@ -1,0 +1,8 @@
+[package]
+name = "example-triangle"
+version.workspace = true
+edition.workspace = true
+publish.workspace = true
+
+[dependencies]
+engine = { path = "../../crates/engine" }

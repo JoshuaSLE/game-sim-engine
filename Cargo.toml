@@ -1,0 +1,15 @@
+[workspace]
+resolver = "3"
+members = ["crates/*", "examples/*"]
+default-members = ["crates/*"]
+
+[workspace.package]
+version = "0.1.0"
+edition = "2024"
+license = "MIT"
+publish = false
+
+[workspace.dependencies]
+glam = "0.34"
+wgpu = "30.0"
+winit = "0.30"
